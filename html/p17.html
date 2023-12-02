@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>MARQUEE TAG</title>
+    </head>
+    <body>
+        <center>
+            Marquee Tag..!
+        </center>
+        <hr>
+
+        <marquee>this is a marquee tag</marquee>
+        <marquee><a href="3">this is a marquee tag..!</a></marquee>
+        <marquee bgcolor="teal">This is a marquee tag..1</marquee>
+
+        <br><hr><br>
+        <h2>MARQUEE TAG BEHAVIOUR ATTRIBUTE</h2>
+        <marquee behavior="alternate" bgcolor="skyblue">This is aN Alternate marquee tag..1</marquee>
+        <br><br>
+
+        <marquee behavior="scroll" bgcolor="skyblue">This is aN scroll marquee tag..1</marquee>
+        <br><br>
+
+        <marquee behavior="slide" bgcolor="skyblue">This is aN slide marquee tag..1</marquee>
+        <br><br><hr>
+
+        <h2>MARQUEE TAG DIRECTION ATTRIBUTE</h2>
+        <marquee direction="right" bgcolor="skyblue">This is aN right direction marquee tag..1</marquee>
+        <br><br>
+
+        <marquee direction="left" bgcolor="skyblue">This is aN left direction  marquee tag..1</marquee>
+        <br><br>
+
+        <marquee direction="up" bgcolor="skyblue" height="100">This is aN up direction  marquee tag..1</marquee>
+        <br><br>
+
+        <marquee direction="down" bgcolor="skyblue" height="100">This is aN down direction marquee tag..1</marquee>
+        <br><br><hr>
+
+        <h2>THIS IS A SCROLLAMOUNT ATTRIBUTE</h2>
+        <marquee scrollamount="1" bgcolor="skyblue" >This is aN scrollamount with 1  marquee tag..1</marquee>
+        <br><br>
+
+        <marquee scrollamount="10" bgcolor="skyblue">This is aN scrollamount with 10 marquee tag..1</marquee>
+        <br><br>
+
+        <marquee scrollamount="20" bgcolor="skyblue" id="test">This is aN scrollamount with 20 marquee tag..1</marquee>
+        <br><br>
+
+        <marquee scrollamount="5" bgcolor="skyblue">This is aN scrollamount with 5 marquee tag..1</marquee>
+        <br><br><hr>
+
+        <h2>MARQUEE TAG JAVASCRIPT CODE</h2>
+        <script>
+            document.getElementById('test').onmouseenter = function(){
+                document.getElementById('test').stop();
+            }
+            document.getElementById('test').onmouseleave= function(){
+                document.getElementById('test').start();
+            }
+        </script>
+
+
+    </body>
+</html>
